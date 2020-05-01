@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Valeria Boccelli Web</title>
+    <meta name="description" content="Valeria Boccelli">
+    <meta name="author" content="Valeria Boccelli">
+    <meta name="keywords" content="Videos,Reportajes,Viajes,Moda,Cirugia Plastica">
+    <!..ICONOS..>
+    <script src="https://kit.fontawesome.com/0747d1153e.js" crossorigin="anonymous"></script>
+    <!..SLIDER..>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!..STYLES..>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+   <div class="wrapper">
+
+     <aside class="column">
+       <div class="slider-wrap">
+        <ul class="slider1">
+          <li><img src="img/slider/slider1.jpg" alt="Traviesa"></li>
+          <li><img src="img/slider/slider2.jpg" alt="Un dia sin colores"></li>
+          <li><img src="img/slider/slider3.jpg" alt="Merienda"></li>
+          <li><img src="img/slider/slider4.jpg" alt="Contenta"></li>
+        </ul>
+       </div>
+
+        <div class="video">
+          <h3>Mis videos</h3>
+          <video src="video/movie2.mp4" autoplay controls loop poster="img/pics/image3.jpg"></video>
+        </div>
+      </aside>
+
+      <div class="iconos">
+        <ul>
+          <li>
+            <a href="mailto:valeria@boccelli.es">
+            <i class="fas fa-envelope-square fa-2x"></i>
+          </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/valeria.calvo.79">
+               <span style="font size: 2x; color: Dodgerblue;">
+              <i class="fab fa-facebook-square fa-2x"></i>
+              </span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/valeriaboccelli/">
+              <i class="fab fa-instagram-square fa-2x"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com">
+                <span style="font-size: 2x; color: Tomato;">
+                <i class="fab fa-youtube fa-2x"></i>
+                </span>
+              </a>
+            </li>
+        </ul>
+      </div>
+
+      <footer class="rights">Copyright® 2020</footer>
+   </div>
+
+   <!..SCRIPTS..>
+   <script>
+
+      $(document).ready(function(){
+        $('.slider1').bxSlider({
+          mode: 'fade'
+        })
+        $('.slider2').bxSlider({
+            mode: 'fade'
+        })
+        $('.slider3').bxSlider({
+            mode: 'fade'
+        })
+        $('.slider4').bxSlider({
+            mode: 'fade'
+        })
+      })
+
+   </script>
+
+  </body>
+</html>
